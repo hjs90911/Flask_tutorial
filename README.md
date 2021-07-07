@@ -10,3 +10,11 @@ pip install email_validator
 
 ## Part 4
 pip install flask_sqlalchemy
+
+## Part 5
+In terminal,
+python
+>>> from flaskblog.models import User, Post
+>>> db.create_all()
+>>> User.query.all()
+[]
