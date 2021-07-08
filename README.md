@@ -53,10 +53,15 @@ User('Corey', 'C@demo.com', 'default.jpg')
 
 ## Part 5
 In terminal,
+
 python
-from flaskblog.models import User, Post
-db.create_all()
-User.query.all()
+
+  from flaskblog.models import User, Post
+
+  db.create_all()
+
+  User.query.all()
+
 []
 
 ## Part 6
