@@ -117,3 +117,6 @@ python
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 
 pip install flask-mail
+
+from PIL import Image
+pip install pillow
