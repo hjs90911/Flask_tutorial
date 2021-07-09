@@ -96,11 +96,11 @@ In terminal,
 
 python
 
-  from flaskblog.models import User, Post
+from flaskblog.models import User, Post
 
-  db.create_all()
+db.create_all()
 
-  User.query.all()
+User.query.all()
 
 []
 
@@ -108,3 +108,12 @@ python
 pip install flask-bcrypt
 
 pip install flask-login
+
+## Part 10
+In terminal,
+
+python
+
+from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
+
+pip install flask-mail
